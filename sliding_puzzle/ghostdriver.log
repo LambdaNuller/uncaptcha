@@ -1,0 +1,17 @@
+[INFO  - 2018-01-17T13:11:17.958Z] GhostDriver - Main - running on port 54130
+[INFO  - 2018-01-17T13:11:21.483Z] Session [e980d260-fb87-11e7-8a8c-49c3c10f1371] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-01-17T13:11:21.483Z] Session [e980d260-fb87-11e7-8a8c-49c3c10f1371] - page.customHeaders:  - {}
+[INFO  - 2018-01-17T13:11:21.483Z] Session [e980d260-fb87-11e7-8a8c-49c3c10f1371] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-01-17T13:11:21.483Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e980d260-fb87-11e7-8a8c-49c3c10f1371
+[ERROR - 2018-01-17T13:11:24.474Z] Session [e980d260-fb87-11e7-8a8c-49c3c10f1371] - page.onError - msg: TypeError: undefined is not an object (evaluating 'a.top')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-17T13:11:24.474Z] Session [e980d260-fb87-11e7-8a8c-49c3c10f1371] - page.onError - stack:
+  n (https://zujuan.21cnjy.com/js/global.min.js?v=6cbd974ec0:1)
+  (anonymous function) (https://zujuan.21cnjy.com/js/global.min.js?v=6cbd974ec0:1)
+  each (https://zujuan.21cnjy.com/lib/jquery.min.js?v=6edfe6bd30:2)
+  each (https://zujuan.21cnjy.com/lib/jquery.min.js?v=6edfe6bd30:2)
+  toggleSearchTypes (https://zujuan.21cnjy.com/js/global.min.js?v=6cbd974ec0:1)
+  initPage (https://zujuan.21cnjy.com/js/global.min.js?v=6cbd974ec0:1)
+
+  phantomjs://platform/console++.js:263 in error
